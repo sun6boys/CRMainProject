@@ -1,0 +1,27 @@
+PODS:
+  - CRConfirmOrder (0.0.1):
+    - CRConfirmOrderServiceProtocol
+    - CRProtocolManager
+  - CRConfirmOrderServiceProtocol (0.0.1)
+  - CRGoodsDetail (0.0.5):
+    - CRConfirmOrderServiceProtocol
+    - CRGoodsDetailServiceProtocol
+    - CRProtocolManager
+  - CRGoodsDetailServiceProtocol (0.0.1)
+  - CRProtocolManager (0.0.3)
+
+DEPENDENCIES:
+  - CRConfirmOrder
+  - CRConfirmOrderServiceProtocol
+  - CRGoodsDetail
+  - CRGoodsDetailServiceProtocol
+  - CRProtocolManager
+
+SPEC CHECKSUMS:
+  CRConfirmOrder: fd22cdd03edfcf2e8dba7a8e27333498667172c9
+  CRConfirmOrderServiceProtocol: b38dfef5966c6305267d40ebbcafaf99b06fac8d
+  CRGoodsDetail: 8dcdc5d7577b2de3e550d5b1d3033248d16e072c
+  CRGoodsDetailServiceProtocol: e1fc5a0a5ee0f447343fa640e3e1c2ccd3874956
+  CRProtocolManager: 6a335e8db703c7b2cd5acc1726996300ac687f03
+
+COCOAPODS: 0.38.2

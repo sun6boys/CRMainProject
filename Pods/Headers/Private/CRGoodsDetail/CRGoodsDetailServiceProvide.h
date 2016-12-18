@@ -1,0 +1,1 @@
+../../../CRGoodsDetail/CRGoodsDetail/CRGoodsDetail/CRGoodsDetailServiceProvide.h

@@ -1,0 +1,6 @@
+#include "CRGoodsDetail.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/CRGoodsDetail" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/CRConfirmOrder" "${PODS_ROOT}/Headers/Public/CRConfirmOrderServiceProtocol" "${PODS_ROOT}/Headers/Public/CRGoodsDetail" "${PODS_ROOT}/Headers/Public/CRGoodsDetailServiceProtocol" "${PODS_ROOT}/Headers/Public/CRProtocolManager"
+OTHER_LDFLAGS = ${CRGOODSDETAIL_OTHER_LDFLAGS}
+PODS_ROOT = ${SRCROOT}
+SKIP_INSTALL = YES

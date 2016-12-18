@@ -1,0 +1,5 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/CRConfirmOrder" "${PODS_ROOT}/Headers/Public/CRConfirmOrderServiceProtocol" "${PODS_ROOT}/Headers/Public/CRGoodsDetail" "${PODS_ROOT}/Headers/Public/CRGoodsDetailServiceProtocol" "${PODS_ROOT}/Headers/Public/CRProtocolManager"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/CRConfirmOrder" -isystem "${PODS_ROOT}/Headers/Public/CRConfirmOrderServiceProtocol" -isystem "${PODS_ROOT}/Headers/Public/CRGoodsDetail" -isystem "${PODS_ROOT}/Headers/Public/CRGoodsDetailServiceProtocol" -isystem "${PODS_ROOT}/Headers/Public/CRProtocolManager"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"CRConfirmOrder" -l"CRGoodsDetail" -l"CRProtocolManager" -framework "UIKit"
+PODS_ROOT = ${SRCROOT}/Pods

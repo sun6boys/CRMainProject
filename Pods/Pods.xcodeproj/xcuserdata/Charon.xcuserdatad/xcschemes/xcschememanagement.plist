@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>CRConfirmOrder.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>CRGoodsDetail.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>CRProtocolManager.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-CRMainProject.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>0800BBECD3312BEFD02478EDFF7E3121</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>67BFD9EC499DD8C626AF86B7DDF8AA70</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>75A4526FEC90B16B9914F8EFBD5E38BF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D1CEA317F9E26CB9263B463500BA344B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
