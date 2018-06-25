@@ -1,1 +1,1 @@
-../../../CRGoodsDetail/CRGoodsDetail/CRGoodsDetail/CRGoodsDetailViewController.h
+../../../CRGoodsDetail/CRGoodsDetail/CRGoodsDetail/Source/CRGoodsDetailViewController.h

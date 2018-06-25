@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import <CRProtocolManager/CRProtocolManager.h>
-#import <CRGoodsDetailServiceProtocol/CRGoodsDetailServiceProtocol.h>
+#import <CRGoodsDetail/CRGoodsDetailServiceProtocol.h>
 
 @interface ViewController ()
 

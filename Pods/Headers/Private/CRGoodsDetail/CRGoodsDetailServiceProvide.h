@@ -1,1 +1,1 @@
-../../../CRGoodsDetail/CRGoodsDetail/CRGoodsDetail/CRGoodsDetailServiceProvide.h
+../../../CRGoodsDetail/CRGoodsDetail/CRGoodsDetail/ServiceProvider/CRGoodsDetailServiceProvide.h

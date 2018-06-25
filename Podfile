@@ -7,9 +7,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 target 'CRMainProject' do
 
 pod "CRProtocolManager"
-pod "CRGoodsDetailServiceProtocol"
 pod "CRGoodsDetail"
-pod "CRConfirmOrderServiceProtocol"
 pod "CRConfirmOrder"
 
 end

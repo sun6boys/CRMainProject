@@ -7,7 +7,7 @@
 //
 
 #import "CRGoodsDetailServiceProvide.h"
-#import <CRGoodsDetailServiceProtocol/CRGoodsDetailServiceProtocol.h>
+#import "CRGoodsDetailServiceProtocol.h"
 #import <CRProtocolManager/CRProtocolManager.h>
 
 #import "CRGoodsDetailViewController.h"

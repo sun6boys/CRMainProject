@@ -7,8 +7,8 @@
 //
 
 #import "CRGoodsDetailViewController.h"
-#import <CRConfirmOrderServiceProtocol/CRConfirmOrderServiceProtocol.h>
 #import <CRProtocolManager/CRProtocolManager.h>
+#import <CRConfirmOrder/CRConfirmOrderServiceProtocol.h>
 
 @interface CRGoodsDetailViewController ()
 
@@ -39,6 +39,7 @@
     
     [self.view addSubview:self.statusLabel];
     [self.view addSubview:self.buyButton];
+    
 }
 
 - (void)viewWillLayoutSubviews
