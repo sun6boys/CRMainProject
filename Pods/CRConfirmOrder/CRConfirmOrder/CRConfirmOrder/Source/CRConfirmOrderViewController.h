@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+@class CROrderInfo;
 @interface CRConfirmOrderViewController : UIViewController
 
 - (instancetype)initWithGoodsId:(NSString *)goodsId sureComplete:(dispatch_block_t)sureComplete;
-
+- (instancetype)initWithOrderInfo:(CROrderInfo *)orderInfo sureComplete:(dispatch_block_t)sureComplete;
 @end

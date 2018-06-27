@@ -38,7 +38,6 @@
     id<CRGoodsDetailServiceProtocol> goodsServiceProvide = [CRProtocolManager serviceProvideForProtocol:@protocol(CRGoodsDetailServiceProtocol)];
     UIViewController *goodsDetailVC = [goodsServiceProvide goodsDetailViewControllerWithGoodsId:@"123" goodsName:@"农夫山泉矿泉水"];
     [self.navigationController pushViewController:goodsDetailVC animated:YES];
-    
 }
 
 #pragma mark - getters

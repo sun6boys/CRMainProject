@@ -1,8 +1,8 @@
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/CRConfirmOrder" "${PODS_ROOT}/Headers/Public/CRGoodsDetail" "${PODS_ROOT}/Headers/Public/CRProtocolManager"
-OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/CRConfirmOrder" -isystem "${PODS_ROOT}/Headers/Public/CRGoodsDetail" -isystem "${PODS_ROOT}/Headers/Public/CRProtocolManager"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/CRConfirmOrder" "${PODS_ROOT}/Headers/Public/CRGoodsDetail" "${PODS_ROOT}/Headers/Public/CRProtocolManager" "${PODS_ROOT}/Headers/Public/CRTestModels"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/CRConfirmOrder" -isystem "${PODS_ROOT}/Headers/Public/CRGoodsDetail" -isystem "${PODS_ROOT}/Headers/Public/CRProtocolManager" -isystem "${PODS_ROOT}/Headers/Public/CRTestModels"
 OTHER_LDFLAGS = $(inherited) -ObjC
-PODS_BUILD_DIR = $BUILD_DIR
-PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
 PODS_ROOT = ${SRCROOT}/Pods

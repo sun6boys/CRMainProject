@@ -1,38 +1,50 @@
 PODS:
-  - CRConfirmOrder (5):
-    - CRConfirmOrder/Protocol (= 5)
-    - CRConfirmOrder/ServiceProvider (= 5)
-    - CRConfirmOrder/Source (= 5)
-  - CRConfirmOrder/Protocol (5)
-  - CRConfirmOrder/ServiceProvider (5):
+  - CRConfirmOrder (10):
+    - CRConfirmOrder/Protocol (= 10)
+    - CRConfirmOrder/ServiceProvider (= 10)
+    - CRConfirmOrder/Source (= 10)
+  - CRConfirmOrder/Protocol (10)
+  - CRConfirmOrder/ServiceProvider (10):
     - CRConfirmOrder/Protocol
     - CRConfirmOrder/Source
     - CRProtocolManager
-  - CRConfirmOrder/Source (5)
-  - CRGoodsDetail (5):
-    - CRGoodsDetail/Protocol (= 5)
-    - CRGoodsDetail/ServiceProvider (= 5)
-    - CRGoodsDetail/Source (= 5)
-  - CRGoodsDetail/Protocol (5)
-  - CRGoodsDetail/ServiceProvider (5):
+  - CRConfirmOrder/Source (10):
+    - CRConfirmOrder/Protocol
+  - CRGoodsDetail (6):
+    - CRGoodsDetail/Protocol (= 6)
+    - CRGoodsDetail/ServiceProvider (= 6)
+    - CRGoodsDetail/Source (= 6)
+  - CRGoodsDetail/Protocol (6)
+  - CRGoodsDetail/ServiceProvider (6):
     - CRGoodsDetail/Protocol
     - CRGoodsDetail/Source
     - CRProtocolManager
-  - CRGoodsDetail/Source (5):
+  - CRGoodsDetail/Source (6):
     - CRConfirmOrder/Protocol
     - CRProtocolManager
-  - CRProtocolManager (0.0.3)
+  - CRProtocolManager (0.0.6)
+  - CRTestModels (1)
 
 DEPENDENCIES:
   - CRConfirmOrder
   - CRGoodsDetail
   - CRProtocolManager
+  - CRTestModels
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CRProtocolManager
+  https://github.com/sun6boys/CRRepositories.git:
+    - CRConfirmOrder
+    - CRGoodsDetail
+    - CRTestModels
 
 SPEC CHECKSUMS:
-  CRConfirmOrder: 221dba185bad58ea7c760790f4dfa9e25a22de92
-  CRGoodsDetail: 00ae26afc5f3dd47c24a8379986ee130888e2316
-  CRProtocolManager: 6a335e8db703c7b2cd5acc1726996300ac687f03
+  CRConfirmOrder: ee9ec647545403cee1ee3b4cd19cf8401413a034
+  CRGoodsDetail: 93e5a6819fe92769efbbafd2a5aa6d92e42ab80b
+  CRProtocolManager: 0b76069708eebdf57450355b7a618f9a322f3b8b
+  CRTestModels: ec5a47b25cd132fa90b1575e59a06b88b2ba8450
 
-PODFILE CHECKSUM: ce7b7036fe8698ad74770ed47ca0ae6b6005b454
+PODFILE CHECKSUM: a02e7e772b9ea74b29d4da2c2f2bb8f2ef4fc78b
 
-COCOAPODS: 1.3.1
+COCOAPODS: 1.5.3

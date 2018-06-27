@@ -9,6 +9,7 @@ target 'CRMainProject' do
 pod "CRProtocolManager"
 pod "CRGoodsDetail"
 pod "CRConfirmOrder"
+pod "CRTestModels"
 
 end
 

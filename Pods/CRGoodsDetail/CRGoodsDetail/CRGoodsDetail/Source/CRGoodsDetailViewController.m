@@ -55,7 +55,14 @@
 - (void)didClickBuyButton:(UIButton *)button
 {
     id <CRConfirmOrderServiceProtocol> provide = [CRProtocolManager serviceProvideForProtocol:@protocol(CRConfirmOrderServiceProtocol)];
-    UIViewController *confirmOrderVC = [provide confirmOrderViewControllerWithGoodsId:self.goodsId sureComplete:^{
+//    UIViewController *confirmOrderVC = [provide confirmOrderViewControllerWithGoodsId:self.goodsId sureComplete:^{
+//        self.statusLabel.text = @"购买成功";
+//    }];
+    
+    CROrderInfo *orderInfo = [[CROrderInfo alloc] init];
+    orderInfo.orderId = @"1231";
+    
+    UIViewController *confirmOrderVC = [provide confirmOrderViewControllerWithOrderInfo:orderInfo sureComplete:^{
         self.statusLabel.text = @"购买成功";
     }];
     if (confirmOrderVC) {

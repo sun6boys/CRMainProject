@@ -8,9 +8,11 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import "CROrderInfo.h"
 
 @protocol CRConfirmOrderServiceProtocol <NSObject>
 
 - (UIViewController *)confirmOrderViewControllerWithGoodsId:(NSString *)goodsId sureComplete:(dispatch_block_t)sureComplete;
+- (UIViewController *)confirmOrderViewControllerWithOrderInfo:(CROrderInfo *)orderInfo sureComplete:(dispatch_block_t)sureComplete;;
 
 @end

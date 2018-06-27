@@ -1,1 +1,1 @@
-../../../CRProtocolManager/CRProtocolManager/CRProtocolManager/CRProtocolManager.h
+../../../CRProtocolManager/CRProtocolManager/CRProtocolManager.h

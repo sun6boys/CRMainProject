@@ -7,10 +7,12 @@
 //
 
 #import "CRConfirmOrderViewController.h"
+#import "CROrderInfo.h"
 
 @interface CRConfirmOrderViewController ()
 
 @property (nonatomic, copy) NSString *goodsId;
+@property (nonatomic, strong) CROrderInfo *orderInfo;
 @property (nonatomic, copy) dispatch_block_t sureComplete;
 
 @property (nonatomic, strong) UIButton *sureButton;
@@ -18,6 +20,7 @@
 
 @implementation CRConfirmOrderViewController
 
+#pragma mark - life cycles
 - (instancetype)initWithGoodsId:(NSString *)goodsId sureComplete:(dispatch_block_t)sureComplete
 {
     self = [super init];
@@ -28,7 +31,18 @@
     return self;
 }
 
-- (void)viewDidLoad {
+- (instancetype)initWithOrderInfo:(CROrderInfo *)orderInfo sureComplete:(dispatch_block_t)sureComplete
+{
+    self = [super init];
+    if (self) {
+        _orderInfo = orderInfo;
+        _sureComplete = sureComplete;
+    }
+    return self;
+}
+
+- (void)viewDidLoad
+{
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor blueColor];
     
@@ -44,13 +58,11 @@
 
 - (void)didClickSureButton:(UIButton *)button
 {
-    if (self.navigationController) {
+    if (self.navigationController.viewControllers.count > 1) {
         [self.navigationController popViewControllerAnimated:YES];
     }else{
         [self dismissViewControllerAnimated:YES completion:^{
-            if (self.sureComplete) {
-                self.sureComplete();
-            }
+            self.sureComplete ? self.sureComplete() : nil;
         }];
     }
 }
